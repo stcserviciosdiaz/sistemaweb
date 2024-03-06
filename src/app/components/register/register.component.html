@@ -1,0 +1,61 @@
+<div class="form-body without-side">
+  <div class="container">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+              <div class="form-items">
+                <h3>Registrar una cuenta nueva</h3>
+                <p>Accede a la herramienta más potente de toda la industria del diseño y web.</p>
+                <form [formGroup]="formReg">
+                    <!-- <input
+                      class="form-control"
+                      id="name"
+                      type="text"
+                      name="name"
+                      placeholder="Nombres completos"
+                      required=""> -->
+
+                    <input
+                      class="form-control"
+                      id="email"
+                      type="email"
+                      formControlName="email"
+                      name="email"
+                      placeholder="Dirección de correo"
+                      required="">
+
+                    <input
+                      class="form-control"
+                      id="password"
+                      type="password"
+                      formControlName="password"
+                      name="password"
+                      placeholder="Contraseña"
+                      required="">
+
+                    <div class="form-button">
+                        <button (click)="click()" class="ibtn">Regístrame</button>
+                    </div>
+                </form>
+                <div class="other-links">
+                    <div class="text">O registrate con</div>
+                    <!-- <a href="#">
+                      <i class="fab fa-facebook-f"></i>Facebook
+                    </a> -->
+                    <a href="#">
+                      <i class="fa fa-google"></i>Google
+                    </a>
+                    <!-- <a href="#">
+                      <i class="fab fa-linkedin-in"></i>Linkedin
+                    </a> -->
+                </div>
+                <div class="page-links">
+                    <a routerLink="/login">Iniciar sesión en la cuenta</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+

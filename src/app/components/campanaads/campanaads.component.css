@@ -1,0 +1,24 @@
+.pb-30{
+ padding-bottom: 30%;
+}
+.separat{
+  padding: 20px 20px 20px 20px;
+  width: 35%;
+}
+.conte-pre{
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  text-align: center;
+}
+.conte-pre li {
+  list-style: none;
+  padding: 25px 50px 10px 50px;
+}
+li.tab:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+li.tab:active {
+  background-color: aliceblue;
+}

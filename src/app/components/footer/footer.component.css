@@ -1,0 +1,28 @@
+.imagelogo{
+  width: 30%;
+}
+.fx1{
+  font-family: 'Poppins', sans-serif;
+}
+.pt-70{
+  padding-top: 70px;
+}
+.fx-13{
+  font-size: 13px;
+}
+button.elementskit-whatsapp__popup--btn.icon_with_text {
+  border: 0;
+  padding: 10px 15px 5px 25px;
+  background-color: #25D366;
+}
+.wp-image-304{
+  width: auto;
+  margin-bottom: 4px;
+}
+footer{
+  background-image: url('https://oxence-react.vercel.app/assets/images/shapes/pricing-bg-dots.png');
+}
+.bg-pie{
+  background-color: #000032;
+  padding: 20px 1px 20px 1px;
+}
