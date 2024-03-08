@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BtnwhatsappComponent implements OnInit {
 
+  qlwappbox = false;
+
   constructor() { }
 
   ngOnInit(): void {
