@@ -25,6 +25,7 @@
     "@angular/router": "~13.0.0",
     "@schematics/angular": "^17.2.2",
     "angular-pipes": "^10.0.0",
+    "animate.css": "^4.1.1",
     "firebase": "^10.8.0",
     "firebase-tools": "^13.4.0",
     "rxjs": "~7.4.0",

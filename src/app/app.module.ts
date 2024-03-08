@@ -38,6 +38,7 @@ import { MainComponent } from './components/main/main.component';
 
 //login
 import { HttpClientModule } from '@angular/common/http';
+import { BtnwhatsappComponent } from './components/btnwhatsapp/btnwhatsapp.component';
 /* import { CookieService } from "ngx-cookie-service"; */
 
 
@@ -67,6 +68,7 @@ import { provideAuth, getAuth } from '@angular/fire/auth'; */
     VideospublicitariosComponent,
     WoocommerceComponent,
     MainComponent,
+    BtnwhatsappComponent,
   ],
   imports: [
     BrowserModule,
