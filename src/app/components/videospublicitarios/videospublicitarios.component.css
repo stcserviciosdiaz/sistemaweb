@@ -1,5 +1,4 @@
 .pricing-wrapper {
-  display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 30px;
   align-items: center;
@@ -25,10 +24,7 @@
   letter-spacing: -0.2px;
   color: #6A8695;
 }
-.cd-pricing-list {
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
-}
+
 
 .pricing-wrapper ul {
   list-style: none;
@@ -39,14 +35,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
 }
-.cd-pricing-list>li {
-  position: relative;
-  padding: 0;
-}
+
 .pricing-wrapper ul {
   list-style: none;
   margin: 0;

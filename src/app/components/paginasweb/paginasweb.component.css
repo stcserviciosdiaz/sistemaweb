@@ -52,9 +52,6 @@ section.pricing-area {
 }
 
 .pricing-plan-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   overflow: hidden;
@@ -77,11 +74,9 @@ section.pricing-area {
     padding: 40px 50px 35px;
 }
 .pricing-plan-item .price-features .list-style-two {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding-left: 0px;
 }
 .pricing-plan-item .price-features .badge {
   position: absolute;
@@ -202,5 +197,12 @@ section.pricing-area {
   .theme-btn.style-three, a.theme-btn.style-three {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 375px){
+   .pricing-plan-item .price-features .list-style-two li {
+    width: 100%;
   }
 }
