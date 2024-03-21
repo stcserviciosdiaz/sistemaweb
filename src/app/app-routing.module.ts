@@ -21,22 +21,66 @@ import { VideospublicitariosComponent } from './components/videospublicitarios/v
 
 
 const rutas: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent },
-  { path: 'disenograficos', component: DisenograficosComponent },
-  { path: 'marketingdigital', component: MarketingdigitalComponent },
-  { path: 'paginasweb', component: PaginaswebComponent},
-  { path: 'contactos', component: ContactosComponent},
-  { path: 'tienda', component: TiendaComponent},
-  { path: 'hosting', component: HostingComponent},
-  { path: 'estrategias', component: EstrategiasComponent},
-  { path: 'menudigital', component: MenudigitalComponent},
-  { path: 'campañas-adwords', component: CampanaadsComponent },
-  { path: 'tiendas-online', component: WoocommerceComponent },
-  { path: 'videos', component: VideospublicitariosComponent },
-  { path: 'login', component: LoginComponent},
-  { path: 'registrame', component: RegisterComponent},
-  { path: '**', component: PageNotFoundComponent },
+  {
+    path: '', redirectTo: '/home', pathMatch: 'full' },
+  {
+    path: 'home',
+    component: HomeComponent },
+  {
+    path: 'disenograficos',
+    component: DisenograficosComponent },
+  {
+    path: 'marketingdigital',
+    component: MarketingdigitalComponent
+  },
+  {
+    path: 'paginasweb',
+    component: PaginaswebComponent
+  },
+  {
+    path: 'contactos',
+    component: ContactosComponent
+  },
+  {
+    path: 'tienda',
+    component: TiendaComponent
+  },
+  {
+    path: 'hosting',
+    component: HostingComponent
+  },
+  {
+    path: 'estrategias',
+    component: EstrategiasComponent
+  },
+  {
+    path: 'menudigital',
+    component: MenudigitalComponent
+  },
+  {
+    path: 'campañas-adwords',
+    component: CampanaadsComponent
+  },
+  {
+    path: 'tiendas-online',
+    component: WoocommerceComponent
+  },
+  {
+    path: 'videos',
+    component: VideospublicitariosComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
+    path: 'registrame',
+    component: RegisterComponent
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
+  },
 
 ];
 
