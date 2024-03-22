@@ -24,7 +24,7 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  click(){
+  /* click(){
     console.log(this.formReg.value)
     this.UserService.register(this.formReg.value)
     if (this.UserService.valid){
@@ -35,12 +35,8 @@ export class RegisterComponent implements OnInit {
       alert("error al ingresar datos")
       this.router.navegate(['/contacto'])
     }
-    /* .then((response: any) => {
-      console.log(response)
-      this.router.navegate(['/login'])
-    })
-    .catch(error => console.log(error)); */
 
-  };
+
+  }; */
 
 }

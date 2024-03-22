@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { UserService } from 'src/app/services/user.service';
 
 
 
@@ -15,7 +16,11 @@ export class LoginComponent implements OnInit {
 
   loginObj: Login;
 
-  constructor(private http: HttpClient, private router: Router) {
+  constructor(
+    private http: HttpClient,
+    private router: Router,
+    private userService: UserService,
+    ){
     this.loginObj = new Login();
   }
 
@@ -23,7 +28,7 @@ export class LoginComponent implements OnInit {
     console.log('entro')
     if (this.loginObj) {
       alert("ingresando......")
-      this.router.navigateByUrl('/videos')
+      this.router.navigateByUrl('/dasboard')
     }else{
       alert("Datos incorrectos")
     }

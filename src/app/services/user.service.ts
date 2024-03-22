@@ -7,10 +7,10 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UserService {
-  http: any;
-  valid: any;
 
-  constructor() {}
+
+
+  constructor(private http: HttpClient) {}
 
   register({ email, password }: any){
     return this.http.get('https://reqres.in/api/register' + 'user', { responseType: 'text' });

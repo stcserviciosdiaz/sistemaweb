@@ -40,6 +40,7 @@ import { MainComponent } from './components/main/main.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BtnwhatsappComponent } from './components/btnwhatsapp/btnwhatsapp.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { CatalogosComponent } from './components/catalogos/catalogos.component';
 
 
 @NgModule({
@@ -66,6 +67,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     MainComponent,
     BtnwhatsappComponent,
     DashboardComponent,
+    CatalogosComponent,
   ],
   imports: [
     BrowserModule,

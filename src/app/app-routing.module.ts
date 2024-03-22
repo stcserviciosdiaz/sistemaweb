@@ -18,6 +18,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { CampanaadsComponent } from './components/campanaads/campanaads.component';
 import { WoocommerceComponent } from './components/woocommerce/woocommerce.component';
 import { VideospublicitariosComponent } from './components/videospublicitarios/videospublicitarios.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 const rutas: Routes = [
@@ -72,6 +73,10 @@ const rutas: Routes = [
   {
     path: 'login',
     component: LoginComponent
+  },
+  {
+    path: 'dasboard',
+    component: DashboardComponent
   },
   {
     path: 'registrame',
