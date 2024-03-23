@@ -1,0 +1,110 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+
+
+
+
+.Whataspp-btn {
+  width: 15%;
+}
+.price-and-btn .theme-btn.style-three {
+  border-color: #0066ff;
+}
+.theme-btn.style-three, a.theme-btn.style-three {
+    color: #293043;
+    background: transparent;
+    border: 1px solid rgba(0, 102, 255, 0.2);
+}
+.theme-btn, a.theme-btn {
+    z-index: 1;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 30px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-transform: capitalize;
+    background: #0066ff;
+}
+.theme-btn i, a.theme-btn i {
+  font-size: 13px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  margin-left: 10px;
+}
+.price-and-btn .theme-btn.style-three:after {
+  background: #0066ff;
+}
+
+.theme-btn.style-three:after, a.theme-btn.style-three:after {
+  background: #0066ff;
+}
+.theme-btn:after, a.theme-btn:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  -webkit-transition: 0.75s;
+  -o-transition: 0.75s;
+  transition: 0.75s;
+  position: absolute;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  background: #01c9f5;
+}
+.theme-btn.style-three:hover, a.theme-btn.style-three:hover {
+  color: white;
+  border-color: #0066ff;
+  background-color: #0066ff;
+}
+
+.pt-6, .py-6 {
+  padding-top: 4rem!important;
+}
+
+
+/* Fuentes */
+.fx-11 {
+  font-size: 12px;
+}
+
+
+.mat-mdc-form-field:not(.mat-form-field-no-animations) .mdc-floating-label {
+  color: black !important;
+  padding: 20px 20px 0 15px;
+}
+.mat-mdc-form-field-infix {
+  width: 100% !important;
+}
+
+@media only screen and (min-width: 400px){
+  .d-md-flex{
+    display: flex;
+   }
+}

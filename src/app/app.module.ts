@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+/* import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
@@ -86,3 +86,4 @@ import { CatalogosComponent } from './components/catalogos/catalogos.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+ */
