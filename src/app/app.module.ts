@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+/* import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
@@ -39,12 +39,9 @@ import { MainComponent } from './components/main/main.component';
 //login
 import { HttpClientModule } from '@angular/common/http';
 import { BtnwhatsappComponent } from './components/btnwhatsapp/btnwhatsapp.component';
-/* import { CookieService } from "ngx-cookie-service"; */
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { CatalogosComponent } from './components/catalogos/catalogos.component';
 
-
-/* import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
-import { environment } from 'src/environments/environment';
-import { provideAuth, getAuth } from '@angular/fire/auth'; */
 
 @NgModule({
   declarations: [
@@ -69,6 +66,8 @@ import { provideAuth, getAuth } from '@angular/fire/auth'; */
     WoocommerceComponent,
     MainComponent,
     BtnwhatsappComponent,
+    DashboardComponent,
+    CatalogosComponent,
   ],
   imports: [
     BrowserModule,
@@ -82,11 +81,9 @@ import { provideAuth, getAuth } from '@angular/fire/auth'; */
     MatSelectModule,
     ReactiveFormsModule,
     HttpClientModule
-    /* provideFirebaseApp (() => initializeApp (environment.firebase)),
-    provideAuth(() => getAuth()) */
-
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+ */
