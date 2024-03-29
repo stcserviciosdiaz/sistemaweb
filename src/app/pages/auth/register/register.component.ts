@@ -89,6 +89,7 @@ export default class RegisterComponent {
   }
 
   async signUp(): Promise<void> {
+    alert('Bienvenido al Equipo')
     if (this.form.invalid) return;
 
     const credential: Credential = {
@@ -110,7 +111,7 @@ export default class RegisterComponent {
   }
 
   openSnackBar() {
-    return this._snackBar.open('Succesfully Sign up 😀', 'Close', {
+    return this._snackBar.open('Regístro exitosamente 😀... ', 'Close', {
       duration: 2500,
       verticalPosition: 'top',
       horizontalPosition: 'end',

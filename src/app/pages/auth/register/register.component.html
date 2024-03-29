@@ -10,15 +10,23 @@
                 <form [formGroup]="form" (ngSubmit)="signUp()">
                     <input
                       class="form-control"
-                      id="name"
                       type="text"
-                      name="name"
+                      name="names"
+                      formControlName="names"
                       placeholder="Nombres completos"
                       required="">
 
                     <input
                       class="form-control"
-                      id="email"
+                      formControlName="lastName"
+                      type="text"
+                      name="lastName"
+                      placeholder="Apellidos completos"
+                      required="">
+
+                    <input
+                      class="form-control"
+                      formControlName="email"
                       type="email"
                       formControlName="email"
                       name="email"
@@ -27,7 +35,7 @@
 
                     <input
                       class="form-control"
-                      id="password"
+                      formControlName="password"
                       type="password"
                       formControlName="password"
                       name="password"
@@ -35,7 +43,7 @@
                       required="">
 
                     <div class="form-button">
-                        <button class="ibtn">Regístrame</button>
+                        <button class="ibtn" id="submit">Regístrame</button>
                     </div>
                 </form>
                 <div class="other-links">
