@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
-//import { RouterOutlet } from '@angular/router';
+import { RouterModule, Routes, provideRouter, Route, RouterLink } from '@angular/router';
 
 @Component({
+  standalone: true,
+  imports: [RouterModule, RouterLink ],
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'angular-stcserviciosdiaz';
+  title = 'auth-yt';
 }
