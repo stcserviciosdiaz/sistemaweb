@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, Input, OnInit, inject } from '@angular/core';
 import { User, user } from '@angular/fire/auth';
 import { Router, RouterModule } from '@angular/router';
 import { AuthService } from 'src/app/core/services/auth.service';
@@ -16,19 +16,11 @@ export class NavmenuComponent implements OnInit {
   private _authService = inject(AuthService);
   private _router = inject(Router);
 
-  AuthService: any;
+  @Input() isLogin = false;
 
-  constructor() {
-
-    this.AuthService = false
-  }
-
-
+  constructor() {}
 
   ngOnInit() {}
-
-
-
 
 
 }

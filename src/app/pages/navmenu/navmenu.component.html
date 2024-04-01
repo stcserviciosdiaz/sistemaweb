@@ -11,22 +11,11 @@
           <div class="text-right pt-2">
             <a routerLink="/auth/login"
                class="mx-2 text-white cursor-pointer"
-               *ngIf="AuthService"
             >
                   <i class="fa fa-user"
                      aria-hidden="true">
                   </i>
-                  {{AuthService ? 'Ocultar' : 'Mostrar'}}
-            </a>
-
-            <a routerLink="/dasboard"
-               class="mx-2 text-white cursor-pointer"
-
-            >
-                  <i class="fa fa-user"
-                     aria-hidden="true">
-                  </i>
-                  Dasboard
+                  Login
             </a>
 
             <a routerLink="/auth/registrame" class="text-white"><i class="fa fa-reply" aria-hidden="true"></i> Registro</a>

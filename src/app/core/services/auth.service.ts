@@ -1,4 +1,5 @@
 import { Injectable, inject } from '@angular/core';
+import { CookieService } from "ngx-cookie-service";
 
 import {
   Auth,
@@ -21,6 +22,9 @@ export interface Credential {
   providedIn: 'root',
 })
 export class AuthService {
+
+  constructor(private cookies: CookieService) {}
+
   private auth: Auth = inject(Auth);
 
   readonly authState$ = authState(this.auth);
@@ -45,6 +49,7 @@ export class AuthService {
     return this.auth.signOut();
   }
 
+
   // providers
 
   signInWithGoogleProvider(): Promise<UserCredential> {
@@ -68,6 +73,8 @@ export class AuthService {
       return error;
     }
   }
+
+
 
 
 

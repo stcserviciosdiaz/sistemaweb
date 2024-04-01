@@ -8,7 +8,11 @@
         <ul class="headermenu">
           <li>
             <div class="btn-group">
-              <button type="button" class="btn btn-logged" data-toggle="dropdown">
+              <button
+              type="button"
+              class="btn btn-logged"
+              data-toggle="dropdown"
+              >
                 <img src="https://themepixels.me/demo/quirk/images/photos/loggeduser.png" alt="">
                 Elen Adarna
                 <span class="caret"></span>
@@ -27,3 +31,182 @@
     </div><!-- headerbar -->
   </div><!-- header-->
 </header>
+
+<section>
+  <div class="leftpanel">
+    <div class="leftpanelinner">
+
+      <!-- ################## LEFT PANEL PROFILE ################## -->
+
+      <div class="media leftpanel-profile">
+        <div class="media-left">
+          <a href="#">
+            <img src="https://themepixels.me/demo/quirk/images/photos/loggeduser.png" alt="" class="media-object img-circle">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Elen Adarna <a data-toggle="collapse" data-target="#loguserinfo" class="pull-right"><i class="fa fa-angle-down"></i></a></h4>
+          <span>Software Engineer</span>
+        </div>
+      </div><!-- leftpanel-profile -->
+
+      <div class="leftpanel-userinfo collapse" id="loguserinfo">
+        <h5 class="sidebar-title">Address</h5>
+        <address>
+          4975 Cambridge Road
+          Miami Gardens, FL 33056
+        </address>
+        <h5 class="sidebar-title">Contact</h5>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <label class="pull-left">Email</label>
+            <span class="pull-right">me@themepixels.com</span>
+          </li>
+          <li class="list-group-item">
+            <label class="pull-left">Home</label>
+            <span class="pull-right">(032) 1234 567</span>
+          </li>
+          <li class="list-group-item">
+            <label class="pull-left">Mobile</label>
+            <span class="pull-right">+63012 3456 789</span>
+          </li>
+          <li class="list-group-item">
+            <label class="pull-left">Social</label>
+            <div class="social-icons pull-right">
+              <a href="#"><i class="fa fa-facebook-official"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+          </li>
+        </ul>
+      </div><!-- leftpanel-userinfo -->
+
+      <ul class="nav nav-tabs nav-justified nav-sidebar">
+        <li (click)="logOut()"
+        class="tooltips"
+        data-toggle="tooltip"
+        title=""
+        data-original-title="Log Out">
+        <a ><i class="fa fa-sign-out"></i></a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div class="tab-pane active" id="mainmenu">
+          <h5 class="sidebar-title">Favorites</h5>
+          <ul class="nav nav-pills nav-stacked nav-quirk">
+            <li class="active"><a href="index.html"><i class="fa fa-home"></i> <span>Inicio</span></a></li>
+          </ul>
+          <!-- <h5 class="sidebar-title">Main Menu</h5>
+          <ul class="nav nav-pills nav-stacked nav-quirk">
+            <li class="nav-parent"><a href=""><i class="fa fa-th-list"></i> <span>Tables</span></a>
+              <ul class="children">
+                <li><a href="basic-tables.html">Basic Tables</a></li>
+                <li><a href="data-tables.html">Data Tables</a></li>
+              </ul>
+            </li>
+            <li class="nav-parent"><a href=""><i class="fa fa-file-text"></i> <span>Pages</span></a>
+              <ul class="children">
+                <li><a href="asset-manager.html">Asset Manager</a></li>
+              </ul>
+            </li>
+          </ul> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="mainpanel">
+
+    <div class="contentpanel">
+      <div class="row">
+        <div class="col-md-9 col-lg-9 dash-left">
+          <div class="panel panel-announcement">
+            <ul class="panel-options">
+              <li><a><i class="fa fa-refresh"></i></a></li>
+              <li><a class="panel-remove"><i class="fa fa-remove"></i></a></li>
+            </ul>
+            <div class="panel-heading">
+              <h4 class="panel-title">Latest Announcement</h4>
+            </div>
+            <div class="panel-body">
+              <h2>A new admin template has been released by <span class="text-primary">ThemePixels</span> with a name <span class="text-success">Quirk</span> is now live and available for purchase!</h2>
+              <h4>Explore this new template and see the beauty of Quirk! <a href="">Take a Tour!</a></h4>
+            </div>
+            <div class="panel-body">
+
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+            </div>
+          </div>
+        </div><!-- col-md-9 -->
+        <div class="col-md-3 col-lg-3 dash-right">
+          <div class="row">
+            <div class="col-sm-5 col-md-12 col-lg-12">
+              <div class="panel panel-danger panel-weather">
+                <div class="panel-heading">
+                  <h4 class="panel-title">Weather Forecast</h4>
+                </div>
+                <div class="panel-body inverse">
+                  <div class="row mb10">
+                    <div class="col-xs-6">
+                      <h2 class="today-day">Monday</h2>
+                      <h3 class="today-date">July 13, 2015</h3>
+                    </div>
+                    <div class="col-xs-6">
+                      <i class="wi wi-hail today-cloud"></i>
+                    </div>
+                  </div>
+                  <p class="nomargin">Thunderstorm in the area of responsibility this afternoon through this evening.</p>
+                  <div class="row mt10">
+                    <div class="col-xs-7">
+                      <strong>Temperature:</strong> (Celcius) 19
+                    </div>
+                    <div class="col-xs-5">
+                      <strong>Wind:</strong> 30+ mph
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- col-md-12 -->
+            <!-- col-md-12 -->
+          </div><!-- row -->
+
+          <!-- row -->
+
+        </div><!-- col-md-3 -->
+      </div><!-- row -->
+
+    </div><!-- contentpanel -->
+
+  </div>
+</section>
