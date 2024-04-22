@@ -15,6 +15,10 @@ import { PaginaswebComponent } from './pages/paginasweb/paginasweb.component';
 import { MarketingdigitalComponent } from './pages/marketingdigital/marketingdigital.component';
 import { DisenograficosComponent } from './pages/disenograficos/disenograficos.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { PreguntasFrecuentesComponent } from './pages/preguntas-frecuentes/preguntas-frecuentes.component';
+import { WordpressyelementorComponent } from './pages/cursos/wordpressyelementor/wordpressyelementor.component';
+import { ArquitecturaComponent } from './pages/arquitectura/arquitectura.component';
+
 
 
 export const routes: Routes = [
@@ -50,7 +54,10 @@ export const routes: Routes = [
     canActivate: [authGuard],
     component: DashboardComponent
   },
-
+  {
+    path: 'preguntas-frecuentes',
+    component: PreguntasFrecuentesComponent
+  },
   {
     path: 'marketingdigital',
     component: MarketingdigitalComponent
@@ -90,6 +97,14 @@ export const routes: Routes = [
   {
     path: 'videos',
     component: VideospublicitariosComponent
+  },
+  {
+    path: 'wordpressyelementor',
+    component: WordpressyelementorComponent
+  },
+  {
+    path: 'arquitectura',
+    component: ArquitecturaComponent
   },
   {
     path: '**',

@@ -80,3 +80,50 @@ border-bottom: 4px solid transparent !important;
 opacity: .5;
 transition: opacity .6s ease;
 }
+
+
+.price-col:before {
+
+  z-index: -1;
+}
+.price-col:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.price-col ul {
+  color: #8292a5;
+  margin: 0 -14px 27px;
+  text-align: left;
+  font: 300 14px / 18px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  list-style: none;
+  padding-left: 0px;
+}
+.price-col ul li:nth-child(odd) {
+  background: #f6f6f6;
+}
+
+.price-col ul li {
+  padding: 13px 15px 11px 48px;
+  position: relative;
+}
+
+@media (min-width: 992px){
+  .price-col ul li:before {
+    left: 7.5%;
+  }
+}
+
+.price-col ul span {
+  display: block;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+strong .title {
+  background-color: #009bde;
+}

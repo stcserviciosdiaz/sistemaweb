@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/angular-stcserviciosdiaz",
+    "public": "dist/auth-yt",
     "ignore": [
       "firebase.json",
       "**/.*",

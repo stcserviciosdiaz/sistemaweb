@@ -1,14 +1,20 @@
 <div class="main-header__top">
-  <div class="row">
-      <div class="col-lg-6 col-md-12 col-12 ">
-        <ul class="text-white d-md-flex d-block top_ul pt-2 justify-content-center">
-            <li><i class="fa fa-phone"></i><a href="tel:097897442" class="text-white"> (+593) 097 890 7442</a></li>
-            <li><i class="fa fa-mobile"></i><a href="tel:04144021398" class="text-white"> (+58) 414-4021398</a></li>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-18 col-12 ">
+        <ul class="text-white d-md-flex d-block top_ul pt-2 padding-left">
+          <li><i class="fa fa fa-clock-o"></i><a class="text-white"> 9:00 am > 6:00 pm</a></li>
+          <li><i class="fa fa-phone"></i><a href="tel:097897442" class="text-white"> (+593) 097 890 7442</a></li>
+          <li><i class="fa fa-phone"></i><a href="tel:04144021398" class="text-white"> (+58) 414-4021398</a></li>
         </ul>
       </div>
-      <div class="col-lg-6 col-md-12 col-12 justify-content-center d-flex">
+     <!--  <div class="col-lg-4 col-md-14 col-12">
         <div class="">
           <div class="text-right pt-2">
+            <a class="text-white"
+               routerLink="/dasboard">
+              <i class="fa fa-dashboard"></i> Admin
+            </a>
             <a routerLink="/auth/login"
                class="mx-2 text-white cursor-pointer"
             >
@@ -17,12 +23,12 @@
                   </i>
                   Login
             </a>
-
             <a routerLink="/auth/registrame" class="text-white"><i class="fa fa-reply" aria-hidden="true"></i> Registro</a>
-<!--              <a routerLink="/tienda" class="text-white pl-2"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span class="badge badge-light">4</span></a>
- -->          </div>
+              <a routerLink="/tienda" class="text-white pl-2"><i class="fa fa-shopping-bag" aria-hidden="true"></i><span class="badge badge-light">4</span></a>
+          </div>
         </div>
-      </div>
+      </div> -->
+    </div>
   </div>
 </div>
 
@@ -46,6 +52,7 @@
                 <li class="nav-item dropdown" >
                   <a class="nav-link dropdown-toggle smooth-scroll" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
                   <div class="dropdown-menu dropdown-cust" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" routerLink="/arquitectura">Arquitectura</a></li>
                     <li><a class="dropdown-item" routerLink="/paginasweb">Diseño y Desarrollo Web</a></li>
                     <li><a class="dropdown-item" routerLink="/tiendas-online">Desarrollos de Tiendas Online</a></li>
                     <li><a class="dropdown-item" routerLink="/estrategias">Estrategias de Marketing Digital</a></li>
@@ -53,20 +60,20 @@
 <!--                     <li><a class="dropdown-item" routerLink="/" data-toggle="modal" data-target="#exampleModal">SEO y Optimización Web</a></li>
  -->                    <li><a class="dropdown-item" routerLink="/disenograficos">Diseño Gráfico</a></li>
                <!--      <li><a class="dropdown-item" routerLink="/" data-toggle="modal" data-target="#exampleModal">Consultoría de Marketing</a></li>
-                    <li><a class="dropdown-item" routerLink="/" data-toggle="modal" data-target="#exampleModal">Arquitectura</a></li>
+
                     <li><a class="dropdown-item" routerLink="/" data-toggle="modal" data-target="#exampleModal">Creación de Naming</a></li> -->
                     <li><a class="dropdown-item" routerLink="/menudigital">Menú / Tarjeta Digital</a></li>
                     <li><a class="dropdown-item" routerLink="/campañas-adwords">Campañas Adwords optimizadas</a></li>
                     <li><a class="dropdown-item" routerLink="/videos">Videos Publicitarios</a></li>
                   </div>
                 </li>
-                <!-- <li class="nav-item dropdown" >
+                <li class="nav-item dropdown" >
                   <a class="nav-link dropdown-toggle smooth-scroll" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cursos</a>
                   <div class="dropdown-menu dropdown-cust" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" routerLink="/" data-toggle="modal" data-target="#exampleModal">Curso de Wordpress y Elementor</a></li>
+                    <li><a class="dropdown-item" routerLink="/wordpressyelementor">Curso de Wordpress y Elementor</a></li>
                     <li><a class="dropdown-item" routerLink="/" data-toggle="modal" data-target="#exampleModal">Curso de Campañas Adwords optimizadas</a></li>
                   </div>
-                </li> -->
+                </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Hosting & Dominio"><a class="nav-link smooth-scroll" routerLink="/hosting">Alojamiento Web</a></li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Mayor información"><a class="nav-link smooth-scroll" href="https://drive.google.com/file/d/1MLekZJZOlGZ3bAwL2NhldONdgoTmkays/view?usp=sharings" target="_blank">Cátalogo</a></li>
 <!--                 <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Nuevos Productos"><a class="nav-link smooth-scroll" routerLink="/tienda">Tienda</a></li>
@@ -94,6 +101,7 @@
           <li class="nav-item dropdown" >
             <a class="nav-link dropdown-toggle smooth-scroll" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
             <div class="text-center fx-22 dropdown-menu dropdown-cust" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" routerLink="/arquitectura">Arquitectura</a></li>
               <li><a class="dropdown-item" routerLink="/paginasweb">Diseño y Desarrollo Web</a></li>
               <li><a class="dropdown-item" routerLink="/estrategias">Estrategias de Marketing Digital</a></li>
               <li><a class="dropdown-item" routerLink="/marketingdigital">Publicidad en Redes Sociales</a></li>
@@ -107,13 +115,13 @@
               <li><a class="dropdown-item" routerLink="/videos">Videos Publicitarios</a></li>
             </div>
           </li>
-          <!-- <li class="nav-item dropdown" >
+          <li class="nav-item dropdown" >
             <a class="nav-link dropdown-toggle smooth-scroll" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cursos</a>
             <div class="dropdown-menu dropdown-cust" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" routerLink="/" data-toggle="modal" data-target="#exampleModal">Curso de Wordpress y Elementor</a></li>
+              <li><a class="dropdown-item" routerLink="/wordpressyelementor">Curso de Wordpress y Elementor</a></li>
               <li><a class="dropdown-item" routerLink="/" data-toggle="modal" data-target="#exampleModal">Curso de Campañas Adwords optimizadas</a></li>
             </div>
-          </li> -->
+          </li>
           <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Hosting & Dominio"><a class="nav-link smooth-scroll" routerLink="/hosting">Alojamiento Web</a></li>
           <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Mayor información"><a class="nav-link smooth-scroll" href="https://drive.google.com/file/d/1MLekZJZOlGZ3bAwL2NhldONdgoTmkays/view?usp=sharings" target="_blank">Cátalogo</a></li>
 <!--           <li class="nav-item" data-toggle="tooltip" data-placement="top" title="Nuevos Productos"><a class="nav-link smooth-scroll" routerLink="/tienda">Tienda</a></li>
