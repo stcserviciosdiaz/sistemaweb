@@ -319,9 +319,15 @@ body, .banner-area, .banner-area div {
   width: 70%;
 }
 
-
-
-
+.bg-002456{
+  background-color: #002456;
+}
+.bg-0255a3{
+  background-color: #0255a3;
+}
+img.i-phone {
+  width: 8%;
+}
 
 
 
