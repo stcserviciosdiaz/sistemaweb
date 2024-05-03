@@ -6,13 +6,14 @@ import { NavmenuComponent } from '../navmenu/navmenu.component';
 import { FooterComponent } from "../footer/footer.component";
 import { BtnwhatsappComponent } from '../btnwhatsapp/btnwhatsapp.component';
 import { CommonModule } from '@angular/common';
+import { ModalinfoComponent } from '../auth/components/modals/modalinfo.component';
 
 @Component({
     standalone: true,
     selector: 'app-home',
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.css'],
-    imports: [RouterModule, CommonModule, NavmenuComponent, FooterComponent, BtnwhatsappComponent]
+    imports: [RouterModule, CommonModule, NavmenuComponent, FooterComponent, BtnwhatsappComponent, ModalinfoComponent]
 })
 
   export class HomeComponent implements OnInit {

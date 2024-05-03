@@ -321,9 +321,11 @@ body, .banner-area, .banner-area div {
 
 .bg-002456{
   background-color: #002456;
+  animation-duration: 3s; /* don't forget to set a duration! */
 }
 .bg-0255a3{
   background-color: #0255a3;
+  animation-duration: 4s; /* don't forget to set a duration! */
 }
 img.i-phone {
   width: 8%;

@@ -18,6 +18,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { PreguntasFrecuentesComponent } from './pages/preguntas-frecuentes/preguntas-frecuentes.component';
 import { WordpressyelementorComponent } from './pages/cursos/wordpressyelementor/wordpressyelementor.component';
 import { ArquitecturaComponent } from './pages/arquitectura/arquitectura.component';
+import { PoliticasComponent } from './pages/politicasdeprivacidad/politicas.component';
 
 
 
@@ -57,6 +58,10 @@ export const routes: Routes = [
   {
     path: 'preguntas-frecuentes',
     component: PreguntasFrecuentesComponent
+  },
+  {
+    path: 'politicas',
+    component: PoliticasComponent
   },
   {
     path: 'marketingdigital',
