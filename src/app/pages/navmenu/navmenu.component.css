@@ -94,7 +94,11 @@ a#navbarDropdownMenuLink {
   top: 3px;
   position: absolute;
 }
-
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #ffffff !important;
+  text-decoration: none;
+  background-color: #1b77d3 !important;
+}
 
 
 

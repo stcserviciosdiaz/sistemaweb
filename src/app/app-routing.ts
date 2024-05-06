@@ -19,6 +19,7 @@ import { PreguntasFrecuentesComponent } from './pages/preguntas-frecuentes/pregu
 import { WordpressyelementorComponent } from './pages/cursos/wordpressyelementor/wordpressyelementor.component';
 import { ArquitecturaComponent } from './pages/arquitectura/arquitectura.component';
 import { PoliticasComponent } from './pages/politicasdeprivacidad/politicas.component';
+import { TarjetadigitalComponent } from './pages/tarjetadigital/tarjetadigital.component';
 
 
 
@@ -90,6 +91,10 @@ export const routes: Routes = [
   {
     path: 'menudigital',
     component: MenudigitalComponent
+  },
+  {
+    path: 'tarjetadigital',
+    component: TarjetadigitalComponent
   },
   {
     path: 'campañas-adwords',
