@@ -330,7 +330,9 @@ body, .banner-area, .banner-area div {
 img.i-phone {
   width: 8%;
 }
-
+.w-20{
+  width: 20%;
+}
 
 
 @media only screen and (min-width: 376px){
