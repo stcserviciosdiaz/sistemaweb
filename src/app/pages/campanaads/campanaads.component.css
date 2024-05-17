@@ -22,3 +22,6 @@ li.tab:hover {
 li.tab:active {
   background-color: aliceblue;
 }
+li .tab::after {
+  background-color: rgb(6, 81, 146);
+}

@@ -103,3 +103,22 @@
 .m-course-header-stats__item>i {
   margin-right: .25rem;
 }
+.course-page__grid__sidebar {
+  grid-area: sidebar;
+}
+
+@media (max-width: 768px) {
+  .d-md-block {
+      display: block ;
+  }
+}
+.d-none {
+  display: none ;
+}
+button#t-add-course-with-free-plus-to-cart-4993 {
+  background-color: #00b2bd;
+  color: #fff;
+  padding: 16px 24px;
+  width: 100%;
+  border: none;
+}
