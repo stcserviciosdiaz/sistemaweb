@@ -359,6 +359,11 @@ img.i-phone {
   transform: scale(0.9);
 }
 
+.img-auto{
+  width: 100%;
+  height: auto;
+}
+
 
 @media only screen and (min-width: 376px){
   .service-item-four h5 {
