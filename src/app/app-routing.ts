@@ -20,6 +20,8 @@ import { WordpressyelementorComponent } from './pages/cursos/wordpressyelementor
 import { ArquitecturaComponent } from './pages/arquitectura/arquitectura.component';
 import { PoliticasComponent } from './pages/politicasdeprivacidad/politicas.component';
 import { TarjetadigitalComponent } from './pages/tarjetadigital/tarjetadigital.component';
+import { AvisoLegalComponent } from './pages/aviso-legal/aviso-legal.component';
+
 
 
 
@@ -59,6 +61,10 @@ export const routes: Routes = [
   {
     path: 'preguntas-frecuentes',
     component: PreguntasFrecuentesComponent
+  },
+  {
+    path: 'aviso-legal',
+    component: AvisoLegalComponent
   },
   {
     path: 'politicas',
