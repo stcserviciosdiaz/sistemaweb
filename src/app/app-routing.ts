@@ -21,6 +21,7 @@ import { ArquitecturaComponent } from './pages/arquitectura/arquitectura.compone
 import { PoliticasComponent } from './pages/politicasdeprivacidad/politicas.component';
 import { TarjetadigitalComponent } from './pages/tarjetadigital/tarjetadigital.component';
 import { AvisoLegalComponent } from './pages/aviso-legal/aviso-legal.component';
+import { PromocionesComponent } from './pages/promociones/promociones.component';
 
 
 
@@ -57,6 +58,10 @@ export const routes: Routes = [
     path: 'dasboard',
     canActivate: [authGuard],
     component: DashboardComponent
+  },
+  {
+    path: 'promociones',
+    component: PromocionesComponent
   },
   {
     path: 'preguntas-frecuentes',
