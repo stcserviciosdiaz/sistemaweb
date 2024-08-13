@@ -13,6 +13,17 @@ import { CommonModule } from '@angular/common';
 })
 export class CampanaadsComponent implements OnInit {
 
+  items = [
+    { id: 1, name: 'Elemento 1' },
+    { id: 2, name: 'Elemento 2' },
+    { id: 3, name: 'Elemento 3' },
+  ];
+
+  // El valor que quieres verificar
+  selectedValue: number = 3;
+
+  selectedId: number | null = null;
+
 
   tx1: boolean;
   tx2: boolean;
@@ -27,33 +38,30 @@ export class CampanaadsComponent implements OnInit {
     this.tx4 = false
   }
 
+
+
+  divs = [
+    { id: 1, content: 'Facebook Ads' },
+    { id: 2, content: 'Instagram Ads' },
+    { id: 3, content: 'Google Ads' },
+    { id: 4, content: 'Tiktok Ads' }
+  ];
+
+  selectedDivId = 2;
+
+  selectDiv(divId: number) {
+    this.selectedDivId = divId;
+  }
+
+  isDivSelected(divId: number): boolean {
+    return this.selectedDivId === divId;
+  }
+
+
   ngOnInit(): void {
   }
 
-  mostrarfb(){
-    this.tx1 = true
-    this.tx2 = false
-    this.tx3 = false
-    this.tx4 = false
-  }
-  mostrarinstagram(){
-    this.tx2 = true
-    this.tx1 = false
-    this.tx3 = false
-    this.tx4 = false
-  }
-  mostrargoogle(){
-    this.tx3 = true
-    this.tx1 = false
-    this.tx2 = false
-    this.tx4 = false
-  }
-  mostrartiktok(){
-    this.tx4 = true
-    this.tx1 = false
-    this.tx2 = false
-    this.tx3 = false
-  }
+
 
 
 
