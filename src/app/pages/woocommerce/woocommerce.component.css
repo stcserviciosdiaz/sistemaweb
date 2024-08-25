@@ -1,0 +1,173 @@
+section#plans {
+  margin-bottom: 70px;
+}
+
+.padding-50 {
+  padding-bottom: 50px;
+}
+.pricing-bg {
+  background-image: url("https://miraclestudio.design/html/rockethost/images/pricing-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.pricing-block {
+  text-align: center;
+}
+.pricing-box {
+  border: 1px solid #eee;
+  padding-top: 90px;
+  position: relative;
+  text-align: center;
+}
+.pricing-title {
+  padding: 30px 0 85px 0;
+  border-radius: 20px 20px 0 0;
+  background-color: rgba(2, 2, 2, 0.54);
+}
+.white-color {
+  color: #fff;
+}
+.blue-color {
+  color: #119ee6;
+}
+.price-eclipse {
+  color: #000000;
+  background-color: #f6f6f6;
+  width: 134px;
+  height: 134px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 7px solid #fff;
+  line-height: 134px;
+  text-align: center;
+  padding-top: 32px;
+}
+.price-money {
+  font-weight: 600;
+  font-size: 30pt;
+  display: block;
+  line-height: 1;
+}
+.pricing-desc {
+  background-color: transparent;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+.pricing-box .pricing-desc ul {
+  padding: 0px;
+  margin-bottom: 10px;
+}
+.pricing-box .pricing-desc ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+.pricing-box .pricing-desc ul li:nth-child(2n+1) {
+  background-color: #f8f8f8;
+}
+.blue-button {
+  background-color: #119EE6;
+  border-color: #119EE6;
+}
+.pricing-box .p-duration {
+  padding-top: 5px;
+  display: block;
+  font-size: 11px;
+  font-family: Poppins, Arial, sans-serif;
+  letter-spacing: 1px;
+  line-height: 1;
+  font-weight: 400;
+}
+.price-money sup {
+  font-weight: 300;
+  font-size: 17pt;
+}
+
+sup {
+  top: -0.5em;
+}
+.black-button {
+  border-color: #222;
+  background-color: #222;
+}
+
+.button {
+  font-size: 14px;
+  color: #fff;
+  padding: 11px 25px 9px;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: all .3s ease;
+  font-style: normal;
+  display: inline-block;
+  border-radius: 20px;
+  border: 2px solid #000;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.wp-image-10591{
+  width: 100%;
+}
+.text-conte{
+  text-align: center;
+  padding-top: 10%;
+}
+.row.bg-image {
+  background-image: url("https://miraclestudio.design/html/rockethost/images/portfolio-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 12px;
+    height: 0px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+.slider-clients {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 4px solid transparent !important;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+

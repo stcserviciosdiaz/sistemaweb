@@ -1,0 +1,124 @@
+.units-list .unit-item:not(:last-child) {
+  margin-bottom: 3rem;
+}
+.units-list .unit-item__list-lessons {
+  margin-top: 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid #d9d9d9;
+}
+
+.units-list ul {
+  list-style-type: none;
+}
+
+
+@media (min-width: 768px){
+  .units-list .unit-subitem {
+    padding-left: 3rem;
+  }
+  .units-list .unit-subitem .icon.a-icon-lock {
+    top: 3px;
+    left: 12px;
+  }
+  .course-header-new__title-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+
+
+.units-list .unit-subitem {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+.unit-subitem .h3, .h4, .h5, .h6, h3, h4, h5, h6 {
+  margin-top: .625rem;
+  margin-bottom: .625rem;
+  font-size: 1.125rem;
+}
+
+
+.units-list .unit-subitem .icon.a-icon-lock {
+    top: 2px;
+    left: 5px;
+    font-size: .9375rem;
+}
+.cart {
+  color: #fff;
+  background-color: #00b2bd;
+  border-color: #00b2bd;
+  padding: 12px 25px;
+  min-width: 300px;
+}
+.box-shaded {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 -2px 7px 0 rgba(22,22,22,.01), 0 2px 10px 0 rgba(80,80,80,.1);
+  text-align: center;
+}
+.a-text--large {
+  font-size: 1.875rem;
+  line-height: 2.375rem;
+}
+.course-header-new {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+.course-header-new__title {
+  margin: 0 0 .25rem;
+}
+.course-header-new__course-by {
+  margin: 0;
+  font-size: .9375rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.m-course-header-stats {
+  margin: 1.5rem 0 0;
+  padding: 1rem 1rem .5rem;
+  font-size: .8125rem;
+  list-style-type: none;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  letter-spacing: -.4px;
+}
+.badge--private_topic, .badge--top_sales {
+  color: #161616;
+  background-color: #ffd100;
+}
+.m-course-header-stats__item:not(:last-child) {
+  margin-right: .5rem;
+}
+.m-course-header-stats__item {
+  margin-bottom: .5rem;
+}
+.m-course-header-stats__item>i {
+  margin-right: .25rem;
+}
+.link-help {
+  border-bottom: 2px dotted #d9d9d9;
+}
+.m-course-header-stats__item>i {
+  margin-right: .25rem;
+}
+.course-page__grid__sidebar {
+  grid-area: sidebar;
+}
+
+@media (max-width: 768px) {
+  .d-md-block {
+      display: block ;
+  }
+}
+.d-none {
+  display: none ;
+}
+button#t-add-course-with-free-plus-to-cart-4993 {
+  background-color: #00b2bd;
+  color: #fff;
+  padding: 16px 24px;
+  width: 100%;
+  border: none;
+}

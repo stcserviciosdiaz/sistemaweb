@@ -1,0 +1,58 @@
+.imagelogo{
+  width: 30%;
+}
+.fx1{
+  font-family: 'Poppins', sans-serif;
+}
+.pt-70{
+  padding-top: 70px;
+}
+.fx-13{
+  font-size: 13px;
+}
+button.elementskit-whatsapp__popup--btn.icon_with_text {
+  border: 0;
+  padding: 10px 15px 5px 25px;
+  background-color: #25D366;
+}
+.wp-image-304{
+  width: auto;
+  margin-bottom: 4px;
+}
+footer{
+  background-image: url('https://oxence-react.vercel.app/assets/images/shapes/pricing-bg-dots.png');
+}
+.bg-pie{
+  background-color: #000032;
+  padding: 20px 1px 20px 1px;
+}
+.link-follow-foter {
+  display: flex;
+  list-style: none;
+  position: relative;
+  margin-bottom: 30px;
+}
+.link-follow-foter li {
+  margin: 0;
+  margin-right: 8px;
+  float: left;
+}
+.link-follow-foter li a {
+  font-size: 12px;
+  background-image: none;
+  border-radius: 100%;
+  width: 41px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  font-weight: 400;
+  color: #888;
+  background: #f2f2f2;
+  border-radius: 100%;
+}
+.link-follow-foter li a:before {
+  background-image: none;
+}
+.link-follow-foter li a span {
+  display: none;
+}
