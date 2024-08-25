@@ -13,90 +13,54 @@
 
 
 
-        <form (ngSubmit)="onSubmit()"  class="contact-form" novalidate="novalidate">
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit($event)" class="contact-form" novalidate>
           <div class="row">
             <div class="col-sm-12">
-              <h4 class="contact-panel__title">Si tienes alguna pregunta específica, no dudes en hacérmela. </h4>
+              <h4 class="contact-panel__title">Si tienes alguna pregunta específica, no dudes en hacérmela.</h4>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
               <div class="form-group">
-                <input type="text"
-                class="form-control"
-                placeholder="Nombres"
-                id="nombre"
-                formControlName="nombre"
-                name="nombre"
-                required=""
-                aria-required="true">
+                <input type="text" class="form-control" placeholder="Nombres" formControlName="nombre" required>
               </div>
-              <!-- vaidaciones -->
-              <div *ngIf="contactForm.get('nombre')?.touched && contactForm.get('nombre')?.errors?.['required']"
-              class="alert alert-danger">
-              Este campo es requerido
+              <!-- Validaciones -->
+              <div *ngIf="contactForm.get('nombre')?.touched && contactForm.get('nombre')?.errors?.['required']" class="alert alert-danger">
+                Este campo es requerido
               </div>
-              <div *ngIf="contactForm.get('nombre')?.touched && contactForm.get('nombre')?.errors?.['minlength']"
-              class="alert alert-danger">
-              Minimo requerido {{ contactForm.get('nombre')?.errors?.['minlength']?.requiredLength }}
-              </div>
-
-            </div><!-- /.col-lg-6 -->
+            </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
               <div class="form-group">
-                <input
-                type="email"
-                formControlName="email"
-                class="form-control"
-                id="email"
-                placeholder="Correo electronico"
-                name="contact-email"
-                required=""
-                aria-required="true">
+                <input type="email" class="form-control" placeholder="Correo electrónico" formControlName="email" required>
               </div>
-            </div><!-- /.col-lg-6 -->
+            </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
               <div class="form-group">
-                <input type="text"
-                class="form-control"
-                id="phone"
-                placeholder="Teléfono"
-                formControlName="phone"
-                name="phone"
-                required=""
-                aria-required="true">
+                <input type="text" class="form-control" placeholder="Teléfono" formControlName="phone" required>
               </div>
-            </div><!-- /.col-lg-6 -->
+            </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
               <div class="form-group">
-                <select class="form-control" id="option" formControlName="option">
+                <select class="form-control" formControlName="option">
                   <option value="">Asunto</option>
                   <option value="logotipo">Logotipo</option>
                   <option value="redessociales">Redes Sociales</option>
-                  <option value="diseñografico">Diseño Grafico</option>
+                  <option value="diseñografico">Diseño Gráfico</option>
                   <option value="tiendaonline">Tienda Online</option>
-                  <option value="paginaweb">Pagina Web</option>
+                  <option value="paginaweb">Página Web</option>
                   <option value="otro">Otro..</option>
                 </select>
               </div>
-            </div><!-- /.col-lg-6 -->
+            </div>
             <div class="col-12">
               <div class="form-group mb-20">
-                <textarea
-                class="form-control"
-                id="message"
-                placeholder="Escribe su requerimiento"
-                formControlName="message"
-                name="contact-message">
-                </textarea>
+                <textarea class="form-control" placeholder="Escribe su requerimiento" formControlName="message" required></textarea>
               </div>
-              <button
-              type="submit"
-              [disabled]="contactForm.invalid"
-              class="btn btn__primary btn__xhight mt-10">Enviar mensaje</button>
-
+              <button type="submit" [disabled]="contactForm.invalid" class="btn btn__primary btn__xhight mt-10">Enviar mensaje</button>
               <div *ngIf="isSubmit" class="contact-result pt-3">{{ submitMessage }}</div>
-            </div><!-- /.col-12 -->
-          </div><!-- /.row -->
+            </div>
+          </div>
         </form>
+
+
 
 
 
