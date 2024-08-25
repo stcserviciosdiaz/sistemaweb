@@ -1,0 +1,51 @@
+.pb-30{
+ padding-bottom: 30%;
+}
+.separat{
+  padding: 20px 20px 20px 20px;
+  width: 35%;
+}
+.conte-pre{
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+  text-align: center;
+}
+.conte-pre li {
+  list-style: none;
+  padding: 25px 50px 10px 50px;
+}
+li.tab:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+li.tab:active {
+  background-color: aliceblue;
+}
+li .tab::after {
+  background-color: rgb(6, 81, 146);
+}
+
+
+.selected-div {
+    background-color: aliceblue;
+    color: #1a1a1a;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.unselected-div {
+  background-color: #f1f1f1; /* Color de fondo gris claro */
+  color: black; /* Texto negro */
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.unselected-div:hover {
+  background-color: #ddd; /* Cambia el fondo al pasar el ratón */
+}
