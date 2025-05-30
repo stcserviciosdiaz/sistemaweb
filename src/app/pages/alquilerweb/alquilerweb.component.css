@@ -1,0 +1,7 @@
+.btn a:hover{
+  text-decoration: none;
+  color: white;
+}
+section.jumbotron.text-center {
+  margin-bottom: 0px;
+}

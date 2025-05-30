@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 20px;
   cursor: pointer;
-  right:20px;
+  left:20px;
   z-index: 9999;
 }
 .qlwapp-description-container {
@@ -11,8 +11,8 @@
 #qlwapp-box{
   position: fixed;
   bottom: 20px;
-  right:20px;
-  z-index: 9999;
+  left:20px;
+  z-index: 99999;
 }
 svg {
   width: 80px;
