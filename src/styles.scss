@@ -144,6 +144,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 .button.type1 {
   color: #566473;
+  margin: auto;
 }
 .button.type1.type1::after, .button.type1.type1::before {
   content: "";
