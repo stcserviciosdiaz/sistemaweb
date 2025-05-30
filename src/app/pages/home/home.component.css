@@ -377,3 +377,93 @@ img.i-phone {
     padding-bottom: 10px;
   }
 }
+
+
+.tv-footer-social-icon {
+  left: 0;
+  position: fixed;
+  top: 0;
+  white-space: nowrap;
+  width: auto;
+  z-index: 0;
+  margin: auto;
+  bottom: 0;
+  max-height: 275px;
+}
+.tv-footer-social-icon .tv-footer-social-icon-wrapper {
+  position: relative;
+  min-width: 40px;
+  width: auto;
+}
+.tv-footer-social-icon .tv-footer-social-icon-inner {
+  position: absolute;
+  right: 0;
+}
+.tv-footer-social-icon .tvblock-social-content {
+  overflow: hidden;
+  height: 28px;
+  background-color: #fff;
+  border-radius: 0 15px 15px 0;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+  margin: 10px 0;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+  z-index: 2;
+  padding: 7px 10px;
+}
+.tv-footer-social-icon .tvblock-social-content .tvblock-social-icon {
+  width: 14px;
+  height: 14px;
+  float: right;
+}
+#footer .tvblock-social-icon path {
+  fill: #6f6f6f !important;
+}
+#footer .tv-footer-social-icon .tvblock-social-content:hover .tvblock-social-icon path {
+  fill: #fff !important;
+}
+.block-social .tvblock-social-content span {
+  display: block;
+  color: #fff;
+  line-height: 15px;
+  margin: 0 9px 0 3px;
+  font-size: 10px;
+  text-transform: uppercase;
+  opacity: 0;
+  float: right;
+  transition: .2s ease-in-out;
+}
+.tv-footer-social-icon .tvfacebook-wrapper:hover {
+  background: #3a589e;
+  margin-right: calc(-100% + 30px);
+}
+.tv-footer-social-icon .tvtwitter-wrapper:hover {
+  background: #5ea9dd;
+  margin-right: calc(-100% + 30px);
+}
+.tv-footer-social-icon .tvrss-wrapper:hover {
+  background: #ff7b0a;
+  margin-right: calc(-100% + 30px);
+}
+.tv-footer-social-icon .tvyoutube-wrapper:hover {
+  background: #ec2828;
+  margin-right: calc(-100% + 30px);
+}
+.tv-footer-social-icon .tvpinterest-wrapper:hover {
+  background: #cb2027;
+  margin-right: calc(-100% + 30px);
+}
+.tv-footer-social-icon .tvvimeo-wrapper:hover {
+  background: #333;
+  margin-right: calc(-100% + 30px);
+}
+.tv-footer-social-icon .tvinstagram-wrapper:hover {
+  background: #64443c;
+  margin-right: calc(-100% + 30px);
+}
+.tv-footer-social-icon .tvblock-social-content:hover span {
+  opacity: 1;
+}

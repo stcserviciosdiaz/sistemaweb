@@ -1,0 +1,48 @@
+<div
+class="toast-container position-fixed bottom-0 right-0 p-3"
+style="z-index: 5; right: 0; bottom: 0;"
+aria-live="polite"
+aria-atomic="true"
+>
+  <div
+  id="liveToast"
+  class="toast show"
+  role="alert"
+  *ngIf="currentMessage"
+  aria-live="assertive"
+  aria-atomic="true"
+  data-delay="2000"
+  style="opacity: 1; transition: opacity 0.5s ease-in-out;"
+  >
+    <div class="toast-header">
+      <strong class="mr-auto pr-5">⚡ Notificación</strong>
+      <small>1 min</small>
+      <button
+      type="button"
+      class="ml-2 mb-1 close"
+      data-dismiss="toast"
+      aria-label="Close"
+      (click)="closeToast()"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="toast-body">
+      <a href="https://wa.link/cosee1">
+        <div class="d-flex px-0">
+          <div class="col-4 px-0">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtDFnOOK9wwu6PPCKCJUpe0yclnqtBzTvE0M8-Sh-o7ssZCeLs239KleXwEZteb4NrL4MQ6tNv3Q6lJ0oodSivnKhS1LT_kpVaBR2f2F0wysrqTVoCaeWoxTHYgsLW_NbPhOR5r73Rg0fLBmMEsD6YkDQ_wi8qAASad_ISkzuwqDbQKzf-EN5R_KBd1pJ7/s2000/post-171.jpg"
+              class="rounded mr-2"
+              width="85%"
+              height="auto"
+              src="../../../assets/cursos/{{currentMessage.imagen }}"
+              alt="Cursos">
+          </div>
+          <div class="col-8 px-0">
+            <p class="fx-12">{{ currentMessage.description }}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
