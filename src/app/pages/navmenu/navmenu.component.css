@@ -185,6 +185,12 @@ a#navbarDropdownMenuLink {
 
 
 
+@media screen and (min-device-width: 1000px) and (max-device-width: 1024px) {
+  .fx-sm-12{
+    font-size: 11px;
+  }
+}
+
 
 
 @media (min-width: 992px){
@@ -192,6 +198,7 @@ a#navbarDropdownMenuLink {
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
+
   .navbar-expand-lg .offcanvas {
     background-color: transparent!important;
     border: 0!important;

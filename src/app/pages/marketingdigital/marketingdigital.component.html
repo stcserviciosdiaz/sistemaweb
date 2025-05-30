@@ -63,6 +63,12 @@
                           <li>📌Calendario de planificación</li>
                           <li>📌Moderación de Comentarios de L-S de 10 am a 5 pm</li>
                           <li>📌Trabajo Inicio: /50 Trabajo final: /50</li>
+                          <span class="send-whastapp">
+                            Compartir.:
+                            <i class="fa fa-whatsapp cursor-pointer"
+                               (click)="enviarViaWhatsAppBasic()"
+                               style="font-size:20px"></i>
+                          </span>
                       </ul>
                       <div class="footer pt-5">
                           <a href="https://wa.link/mo77fg">
@@ -99,6 +105,12 @@
                           <li>📌Lanzamiento y Monitoreo de campañas.(Cliente cubre costo de Pautaje)</li>
                           <li>📌Moderación de Comentarios de L-S de 10 am a 5 pm</li>
                           <li>📌Trabajo Inicio: /50 Trabajo Final: /50</li>
+                          <span class="send-whastapp">
+                            Compartir.:
+                            <i class="fa fa-whatsapp cursor-pointer"
+                               (click)="enviarViaWhatsAppDuo()"
+                               style="font-size:20px"></i>
+                          </span>
                       </ul>
                       <div class="footer">
                         <a href="https://wa.link/mo77fg">
@@ -143,6 +155,14 @@
                           <li>📌Asesoría por 1 hora</li>
                           <li>📌Trabajo Inicio: /50 Trabajo final: /50</li>
                         </div>
+
+                        <span class="send-whastapp">
+                          Compartir.:
+                          <i class="fa fa-whatsapp cursor-pointer"
+                             (click)="enviarViaWhatsAppPremium()"
+                             style="font-size:20px"></i>
+                        </span>
+
                         <div class="custom-control custom-switch">
                           <input type="checkbox" class="custom-control-input" id="customSwitch1">
                           <label class="custom-control-label" for="customSwitch1" (click)="mostrarmasplan = !mostrarmasplan">{{mostrarmasplan ? 'Mostrar menos del plan' : 'Mostrar más del plan'}}</label>

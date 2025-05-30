@@ -78,10 +78,19 @@ section.pricing-area {
   flex-wrap: wrap;
   padding-left: 0px;
 }
+
+.Whataspp-send{
+  width: 5%;
+}
+
+button.btn-whatsapp {
+  border: 0;
+}
+
 .pricing-plan-item .price-features .badge {
   position: absolute;
-  top: 0;
-  left: 65%;
+  top: 35%;
+  left: 20px;
   color: white;
   font-size: 18px;
   -webkit-transition: 0.5s;

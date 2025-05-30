@@ -40,4 +40,44 @@ export class VideospublicitariosComponent implements OnInit {
 
   }
 
+
+
+   enviarViaWhatsApp001() {
+    // Construye el mensaje que quieres enviar por WhatsApp
+    const mensaje = `Plan Básico - Video Estáticos & Dinámicos
+    (Fotográfico, Videos grabados por el cliente):\n
+    - Max 10 a 20 segundos - $12.\n
+    - Max 30 segundos - $24.\n
+    - Max 1 minuto - $30.\n
+    - Trabajo 100% costo para iniciar. \n`;
+
+    // Codificar el mensaje para URL
+    const mensajeCodificado = encodeURIComponent(mensaje);
+
+    // Enlace para abrir WhatsApp con el mensaje
+    const urlWhatsApp = `https://wa.me/?text=${mensajeCodificado}`;
+
+    // Abrir WhatsApp en una nueva ventana
+    window.open(urlWhatsApp, '_blank');
+  }
+
+   enviarViaWhatsApp002() {
+    // Construye el mensaje que quieres enviar por WhatsApp
+    const mensaje = `Plan Básico - Videos Dinámicos
+    (Con Videos Grabados en Campo):\n
+    - Max 10 a 20 segundos - $25.\n
+    - Max 30 segundos - $35.\n
+    - Max 1 minuto - $75.\n
+    - Trabajo 100% costo para iniciar. \n`;
+
+    // Codificar el mensaje para URL
+    const mensajeCodificado = encodeURIComponent(mensaje);
+
+    // Enlace para abrir WhatsApp con el mensaje
+    const urlWhatsApp = `https://wa.me/?text=${mensajeCodificado}`;
+
+    // Abrir WhatsApp en una nueva ventana
+    window.open(urlWhatsApp, '_blank');
+  }
+
 }
