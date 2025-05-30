@@ -22,6 +22,10 @@ import { PoliticasComponent } from './pages/politicasdeprivacidad/politicas.comp
 import { TarjetadigitalComponent } from './pages/tarjetadigital/tarjetadigital.component';
 import { AvisoLegalComponent } from './pages/aviso-legal/aviso-legal.component';
 import { PromocionesComponent } from './pages/promociones/promociones.component';
+import { TiendawordpressComponent } from './pages/cursos/tiendawordpress/tiendawordpress.component';
+import { CatalogosComponent } from './pages/catalogos/catalogos.component';
+import { MarketingymediosocialesComponent } from './pages/cursos/marketingymediosociales/marketingymediosociales.component';
+import { AlquilerwebComponent } from './pages/alquilerweb/alquilerweb.component';
 
 
 
@@ -62,6 +66,10 @@ export const routes: Routes = [
   {
     path: 'promociones',
     component: PromocionesComponent
+  },
+  {
+    path: 'alquilerweb',
+    component: AlquilerwebComponent
   },
   {
     path: 'preguntas-frecuentes',
@@ -124,8 +132,20 @@ export const routes: Routes = [
     component: WordpressyelementorComponent
   },
   {
+    path: 'marketingymediosociales',
+    component: MarketingymediosocialesComponent
+  },
+  {
+    path: 'tiendawordpress',
+    component: TiendawordpressComponent
+  },
+  {
     path: 'arquitectura',
     component: ArquitecturaComponent
+  },
+  {
+    path: 'catalogo',
+    component: CatalogosComponent
   },
   {
     path: '**',
