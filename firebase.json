@@ -7,6 +7,9 @@
       "**/node_modules/**"
     ],
     "rewrites": [
+      { "source": "/sitemap.xml",
+        "destination": "/assets/sitemap.xml"
+      },
       {
         "source": "**",
         "destination": "/index.html"
